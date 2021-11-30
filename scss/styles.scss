@@ -1,0 +1,236 @@
+@import "estructura";
+@import "responsive";
+@import "colores";
+@import "tipografia";
+
+.encabezado {
+    .encabezado__titulo {
+    font-size: 70px; 
+    font-family: fantasy;
+    letter-spacing: 6px;
+    color: #ddbd05;
+    }
+    .encabezado__logo {
+        width: 126px;
+        margin: -70px -20px;
+    }
+}
+
+.videoIndex {
+    .videoIndex__tamaño {
+        margin-top: 10px;
+    }
+}
+
+.footerPie {
+    a { 
+        font-family: cursive;
+        color: #ddbd05;
+        text-decoration: none;
+        font-size: 20px;
+      }
+        .footerPie__icono {
+            width: 41px;
+            margin: -7px 0px 0px;
+            position: relative;
+        }
+}
+footer {
+    background-image: linear-gradient(#ddbd05, black,black, #ddbd05);
+}
+
+h1 {
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-delay: 0s;
+}
+
+#bannerMother {
+    text-align: center;
+}
+
+tr {  
+    th {
+        color: #ddbd05;
+        font-weight: 700;
+        font-size: 17px;
+        border: 5px;
+        border-color: #ffffff;
+        border-style: solid;
+        }
+    td {
+        border-color: #ddbd05;
+        border-style: solid;
+        }
+    }	
+
+ul {
+    list-style: none;
+        li {
+            width: 15%;
+            position:relative;
+            font-size: 14px;
+            padding: 2px;
+            a {
+                color: #ddbd05;
+                font-style: italic;
+                font-size: 18px;
+                text-decoration: none;
+              }
+            }   
+    }
+
+body {
+    background-image: url("/images/fondo.jpg");
+    background-size: cover;
+}
+
+.cajaProductos {
+    width: 100%;
+    height: 250px;
+    margin-top: 7px;
+}
+
+.bannerProductos1 {
+    background-image: url(/images/01_img_procesadores.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.bannerProductos2 {
+    background-image: url(/images/AMD-vs-NVIDIA-01.webp);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px;
+    float: right;
+}
+
+#bannerATPC {
+    width: 100%;
+    height: 200px;
+    margin: 0px 0px 7px;
+}
+
+div table {
+    border-top-style: double;
+    border-top-color: darkviolet;
+    border-left-style: groove; 
+    border-left-color:green;
+    border-right-style: solid;
+    border-right-color: blue;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+}
+
+.imagen1 {
+    background-image: url("/images/Proyectos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen2 {
+    background-image: url("/images/Soporte.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen3 {
+    background-image: url("/images/como-empezo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen4 {
+    background-image: url("/images/gaming.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen5 {
+    background-image: url("/images/DiseñoGrafico.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen6 {
+    background-image: url("/images/Oficina.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.hijo1 {
+    background-image: url(/images/gama-entrada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo2 {
+    background-image: url(/images/gama-baja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo3 {
+    background-image: url(/images/gama-optima.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo4 {
+    background-image: url(/images/gama-monster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#grad {
+    background-image: linear-gradient(to top, #ddbd05, black, black, black, #ddbd05);
+}
+
+input {
+    transition: all 5s;
+}
+
+input:focus {
+    width: 200px;
+    height: 32px;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
