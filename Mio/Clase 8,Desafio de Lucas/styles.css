@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-image: linear-gradient(#ddbd05, black,black, #ddbd05);
+}
+
+
+h1 {
+    font-size: 70px; 
+    font-family: fantasy;
+    letter-spacing: 6px;
+    color: #ddbd05;
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-delay: 0s
+}
+
+.navPrincipal {
+    background-color: black;
+
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+   display: inline-block;
+   width: 15%;
+   position:relative;
+   font-size: 14px;
+   background-color: black;
+   padding: 2px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+    background-color: black;
+    width: 100%;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li a{
+    color: #ddbd05;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.subListas {
+color: #FFFF;
+font-style: italic;
+font-size: 15px;
+}
+
+
+body {
+    background-color: #000;
+    background-image: url("/images/fondo.jpg");
+    background-size: cover;
+}
+
+
+legend {
+    color: #ddbd05;
+    font-size: 20px;
+}
+
+
+footer a { 
+    font-family: cursive;
+    color: #ddbd05;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+fieldset {
+    color: #ddbd05;
+    background-image: url("./images/pexels-sebastiaan-stam-1304642.jpg");
+    border-style:ridge;
+}
+
+
+.tablaProductos {
+list-style-type: lower-alpha;
+color: rgb(29, 15, 30);
+background-color: #ddbd05;
+text-transform: initial;
+text-align: center;
+font-size: 17px;
+font-weight: 700;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+th{
+    color: rgb(250, 228, 228);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+footer a img {
+   width: 60px;
+}
+
+
+.rampart {
+   font-family: 'Rampart One', cursive;
+}
+
+.logo {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+
+p {
+    background-color: rgba(10, 10, 10, 0.699);
+    color: whitesmoke;
+    font-size: 27px;
+    font-weight: bold;
+    text-align:center;
+    padding: 0px;
+    border:solid 1px black;
+    font-family: Impact;
+}
+
+div table {
+    border-top-style: double;
+    border-top-color: darkviolet;
+    border-left-style: groove; 
+    border-left-color:green;
+    border-right-style: solid;
+    border-right-color: blue;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+}
+
+tr th{
+    border-color: white;
+    border-style: solid;
+}
+
+tr td {
+    border-color: white;
+    border-style: solid;
+}
+
+.padreFlex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagen1 {
+    background-image: url("/images/Proyectos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen2 {
+    background-image: url("/images/Soporte.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen3 {
+    background-image: url("/images/como-empezo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen4 {
+    background-image: url("/images/gaming.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen5 {
+    background-image: url("/images/DiseñoGrafico.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.imagen6 {
+    background-image: url("/images/Oficina.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}
+
+.textoEnImg {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.textoEnImg2 {
+    text-align: center;
+    color: rgb(197, 56, 178);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.quitarDecorado {
+    text-decoration: none;
+}
+
+.textoImages {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 0px;
+    border:solid 1px black;
+    font-family: Impact;
+}
+
+#padre {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: auto auto;
+    grid-row-gap: 8px;
+    border: 3px solid black;
+}
+
+#padre div {
+    border: 3px solid black;
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+    padding: 3px;
+    background-color: orange;
+}
+
+.hijo1 {
+    background-image: url(/images/gama-entrada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo2 {
+    background-image: url(/images/gama-baja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo3 {
+    background-image: url(/images/gama-optima.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hijo4 {
+    background-image: url(/images/gama-monster.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width:768px) 
+{
+    body {
+        color :#FFFFFF;
+        background-color: #000000;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1024px) 
+{
+    body {
+        color :#6e8d17;
+        background-color: #a72e2e;
+        font-size: 13px;
+    }
+}
+
+#grad {
+    background-image: linear-gradient(to top, #ddbd05, black, black, black, #ddbd05);
+}
+
+input {
+    transition: all 5s;
+}
+
+input:focus {
+    width: 200px;
+    height: 32px;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
