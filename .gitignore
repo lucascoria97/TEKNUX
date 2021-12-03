@@ -1,5 +1,5 @@
-*node_modules/
-*.gitignore
-*Mio/
-*package-lock.json
-*package.json
+node_modules/
+.gitignore
+Mio/
+package-lock.json
+package.json
